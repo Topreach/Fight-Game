@@ -1,0 +1,56 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+*.jks
+
+# Local editor and OS files
+.idea/
+.vs/
+.vscode/
+Thumbs.db
+.DS_Store
+*.log
+
+# Dependencies and generated outputs
+node_modules/
+dist/
+coverage/
+.next/
+.cache/
+__pycache__/
+.venv/
+
+# Unreal generated files (retain Source, Content, Config and project files)
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# Unity generated files (retain Assets, Packages and ProjectSettings)
+Library/
+Temp/
+Obj/
+Logs/
+UserSettings/
+Build/
+Builds/
+
+# Mobile tool caches and signing configuration
+.gradle/
+local.properties
+Pods/
+
+# Infrastructure local state
+.terraform/
+*.tfstate
+*.tfstate.*
